@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const transcriptDiv = document.getElementById('transcript');
         const clearButton = document.getElementById('clear');
 
-        console.log('Josiah Woresha');
-
         const recognition = new webkitSpeechRecognition();
         recognition.continuous = true;
         recognition.interimResults = true;
